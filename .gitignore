@@ -1,0 +1,28 @@
+# Downloaded ML models (auto-fetched on first run)
+models/
+
+# Virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Secrets / local config
+.env
+.env.*
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Python packaging / tooling
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
